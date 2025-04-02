@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 "mid-morning" -> "Scrambled eggs and Toast"
                 "afternoon" -> "Avocado toast"
                 "mid-afternoon" -> "Macaroni and Cheese"
-                "dinner time" -> "Chicken Fillet with a side of Mashed Potatoes"
+                "dinner" -> "Chicken Fillet with a side of Mashed Potatoes"
                 else -> "Please enter a valid time of day."
             }
             textViewSuggestion.text = suggestion
